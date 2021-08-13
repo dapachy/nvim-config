@@ -17,6 +17,6 @@ set incsearch
 set colorcolumn=80
 highlight ColorColumn ctermbg=7
 
-vim.g.mapleader = ' '
-
 lua require('plugins')
+
+let mapleader = ' '
