@@ -1,3 +1,5 @@
+colorscheme torte
+
 syntax on
 
 set noerrorbells
@@ -14,9 +16,14 @@ set undodir=~/.vim_undodir
 set undofile
 set incsearch
 
-set colorcolumn=80
-highlight ColorColumn ctermbg=7
-
 lua require('plugins')
 
 let mapleader = ' '
+
+nnoremap <silent><leader><Up> :wincmd k<CR>
+nnoremap <silent><leader><Down> :wincmd j<CR>
+nnoremap <silent><leader><Left> :wincmd h<CR>
+nnoremap <silent><leader><Right> :wincmd l<CR>
+
+nnoremap <leader>e :NERDTreeToggle<CR>
+nnoremap <leader>u :UndotreeToggle<CR>
