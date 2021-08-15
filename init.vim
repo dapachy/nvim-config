@@ -10,6 +10,7 @@ set smartindent
 set nu
 set nowrap
 set smartcase
+set hidden
 set noswapfile
 set nobackup
 set undodir=~/.vim_undodir
