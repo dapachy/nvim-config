@@ -20,4 +20,10 @@ return require('packer').startup(function()
     use {'ycm-core/YouCompleteMe', run="./install.py"}
 
     use 'mbbill/undotree'
+
+    use 'ap/vim-css-color'
+    
+    use 'yggdroot/indentline'
+
+    use 'tpope/vim-fugitive'
 end)
