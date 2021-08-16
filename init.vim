@@ -1,4 +1,4 @@
-colorscheme torte
+"colorscheme torte
 
 syntax on
 
@@ -18,6 +18,8 @@ set undofile
 set incsearch
 
 lua require('plugins')
+
+colorscheme afterglow
 
 let mapleader = ' '
 
