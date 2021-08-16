@@ -12,8 +12,6 @@ return require('packer').startup(function()
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     
-    use 'danilo-augusto/vim-afterglow'
-
     use 'jiangmiao/auto-pairs' 
 
     use 'preservim/nerdtree'
