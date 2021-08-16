@@ -1,5 +1,3 @@
-colorscheme torte
-
 syntax on
 
 set noerrorbells
@@ -16,6 +14,9 @@ set nobackup
 set undodir=~/.vim_undodir
 set undofile
 set incsearch
+
+source ~/.config/nvim/palmentorte.vim
+colorscheme = palmentorte
 
 lua require('plugins')
 
