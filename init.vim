@@ -31,5 +31,7 @@ nnoremap <silent><leader><Right> :wincmd l<CR>
 nnoremap <silent><leader>v :vsplit<CR>
 nnoremap <silent><leader>c :on<CR>
 
+nnoremap <silent><leader>/ :noh<CR>
+
 nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
