@@ -32,5 +32,8 @@ nnoremap <silent><leader>c :on<CR>
 
 nnoremap <silent><leader>/ :noh<CR>
 
+nnoremap <silent><leader>t :ter<CR>
+tnoremap <silent><Esc> <C-\><C-n>
+
 nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
