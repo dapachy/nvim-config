@@ -14,6 +14,7 @@ set nobackup
 set undodir=~/.vim_undodir
 set undofile
 set incsearch
+set scrolloff=7
 
 source ~/.config/nvim/palmentorte.vim
 colorscheme = palmentorte
