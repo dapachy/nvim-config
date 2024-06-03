@@ -26,4 +26,6 @@ return require('packer').startup(function()
     use 'yggdroot/indentline'
 
     use 'tpope/vim-fugitive'
+
+    use 'lervag/vimtex'
 end)
