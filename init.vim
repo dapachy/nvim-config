@@ -20,6 +20,7 @@ source ~/.config/nvim/palmentorte.vim
 colorscheme = palmentorte
 
 lua require('plugins')
+lua require('lsps')
 
 let mapleader = ' '
 
