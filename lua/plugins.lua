@@ -25,4 +25,6 @@ return require('packer').startup(function()
     use 'tpope/vim-fugitive'
 
     use 'lervag/vimtex'
+
+    use 'neovim/nvim-lspconfig'
 end)
